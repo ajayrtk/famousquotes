@@ -23,7 +23,7 @@ jobs:
     - name: Build the project
       run: sh ./gradlew build
 
-- name: Generate the static site
+    - name: Generate the static site
       run: sh ./gradlew run
 
 
