@@ -16,7 +16,7 @@ public class ComponentTests {
     public void WhenCreateQuotesThenHtmlIsCreated() {
         QuotesComponent quotes = new QuotesComponent(List.of());
         String html = quotes.render();
-        Assert.assertEquals(html, "<h1>Famous Quotes</h1>\n<div class='quotes'>\n</div>\n")
+        Assert.assertEquals(html, "<h1>Famous Quotes</h1>\n<div class='quotes'>\n</div>\n");
     }
 
 }
